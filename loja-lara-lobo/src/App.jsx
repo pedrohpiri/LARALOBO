@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingBag, Instagram, ChevronRight } from 'lucide-react';
-
+import './index.css';
 export default function LandingPage() {
   const [activeCategory, setActiveCategory] = React.useState('novidades');
 
